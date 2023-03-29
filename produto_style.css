@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+a {
+  font-size: 20px;
+  color: white;
+  background: linear-gradient(to bottom right, blueviolet, pink);
+  margin-left: 10px;
+  padding: 5px 20px 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: blueviolet;
+   text-shadow: 2px 2px 0 pink, -1px -1px 0 pink;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  margin: 40px 280px 40px 280px;
+}
+
+.price {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: blueviolet;
+  margin-bottom: 20px;
+}
+
+.availability {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: pink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
